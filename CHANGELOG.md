@@ -1,5 +1,11 @@
 # @frontendfixer/stylelint-config-standard
 
+## 1.0.1
+
+### Patch Changes
+
+- [`76cddaa`](https://github.com/frontendfixer/-frontendfixer-stylelint-config-standard/commit/76cddaa0cfbc366528256bf4da5135ec001d061b) - add installation and setup instruction
+
 ## 1.0.0
 
 ### Major Changes
