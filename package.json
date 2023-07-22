@@ -1,6 +1,6 @@
 {
   "name": "@frontendfixer/stylelint-config-standard",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Stylelint config with standard rules and useful plugins",
   "keywords": [
     "stylelint",
