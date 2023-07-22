@@ -29,7 +29,9 @@
   "scripts": {
     "lint": "stylelint '**/*.{css,scss}'",
     "lint:fix": "stylelint '**/*.{css,scss}' --fix",
-    "changeset": "changeset"
+    "changeset": "changeset",
+    "release": "changeset publish",
+    "version": "changeset version"
   },
   "dependencies": {
     "postcss-scss": "^4.0.6",
