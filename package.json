@@ -1,0 +1,48 @@
+{
+  "name": "@frontendfixer/stylelint-config-standard",
+  "version": "0.0.0",
+  "description": "Stylelint config with standard rules and useful plugins",
+  "keywords": [
+    "stylelint",
+    "config",
+    "lint",
+    "css",
+    "scss"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:frontendfixer/-frontendfixer-stylelint-config-standard.git"
+  },
+  "author": {
+    "name": "Lakshmikanta Patra",
+    "email": "frontendfixer@gmail.com"
+  },
+  "license": "MIT",
+  "files": [
+    "./index.js",
+    "./.stylelintrc.json"
+  ],
+  "main": "index.js",
+  "stylelint": {
+    "extends": "./index.js"
+  },
+  "scripts": {
+    "lint": "stylelint '**/*.{css,scss}'",
+    "lint:fix": "stylelint '**/*.{css,scss}' --fix",
+    "changeset": "changeset"
+  },
+  "dependencies": {
+    "postcss-scss": "^4.0.6",
+    "stylelint-config-css-modules": "^4.3.0",
+    "stylelint-config-recess-order": "^4.3.0",
+    "stylelint-config-standard": "^34.0.0",
+    "stylelint-config-standard-scss": "^10.0.0",
+    "stylelint-scss": "^5.0.1"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.4.8",
+    "@changesets/cli": "^2.26.2",
+    "postcss": "^8.4.27",
+    "stylelint": "^15.10.2"
+  }
+}
